@@ -63,8 +63,8 @@ class Solution475Test extends FunSuite {
   }
 
   test("[474833169,264817709,998097157,817129560],[197493099,404280278,893351816,505795335]") {
-    val houses = Array(474833169,264817709,998097157,817129560)
-    val heaters = Array(197493099,404280278,893351816,505795335)
+    val houses = Array(474833169, 264817709, 998097157, 817129560)
+    val heaters = Array(197493099, 404280278, 893351816, 505795335)
 
     var solution = new Solution475()
     val result = solution.findRadius(houses, heaters)
